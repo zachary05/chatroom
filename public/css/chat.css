@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue;
+    /*font-weight: 100;*/
+}
+p{
+  margin: 15px;
+  font-weight: 200;
+  font-size: 20px;
+
+}
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+.wrapper {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(5, 3, 23);
+}
+.bar {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    border-color: rgb(178, 213, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#status{
+  width: 50vw;
+  height: 10vh;
+  color: #fff;
+  font-weight: 100;
+
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.historyMsg {
+    position: absolute;
+    top: 10vh;
+    width: 100vw;
+    height: 80vh;
+    overflow: auto;
+    padding: 2px;
+    background-color: #ffffff;
+}
+#messageInput {
+    position: absolute;
+    width: 85vw;
+    height: 5vh;
+    top: 90vh;
+    margin: 22px;
+    margin-bottom: 0;
+    border: 2px solid #fff;
+    outline: none;
+    font-size: 22px;
+    font-weight: 100;
+    text-indent: 30px;
+}
+#sendBtn {
+    position: absolute;
+    top: 90vh;
+    right: 1vw;
+    padding: 0;
+    outline: none;
+    margin: 24px 0 0 24px;;
+    width: 10vw;
+    height: 5vh;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    transition: all .5s;
+}
+#sendBtn:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #00509a;
+}
+
+
+/*login*/
+
+.login {
+    transition: all .3s;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: #000;
+}
+#info {
+    position: absolute;
+    top: 30vh;
+    letter-spacing: 2px;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    font-weight: 100;
+    color: #fff;
+    left: 36vw;
+}
+#nickInput {
+    position: absolute;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 23px;
+    color: #000;
+    padding: 2px;
+    top: 40vh;
+    width: 20vw;
+    text-align: center;
+    left: 40vw;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-bottom: 2px #fff solid;
+    background-color: transparent;
+    transition: all .3s;
+}
+#nickInput:focus{
+    border-color: #00509a;
+}
+#nickInput:hover{
+    border-color: #00509a;
+}
+.nickWrapper{
+  display: none;
+}
+#loginBtn {
+    position: absolute;
+    top: 50vh;
+    outline: none;
+    width: 10vw;
+    height: 5vh;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    transition: all .3s;
+    left: 50vw;
+    margin-left: -5vw;
+}
+#loginBtn:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #00509a;
+}

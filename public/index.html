@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatroom</title>
+  <link rel="stylesheet" href="/css/chat.css " media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="bar">
+      <!-- <h1>Welcome to the chatroom</h1> -->
+      <span id="status"></span>
+    </div>
+
+    <div class="historyMsg" id="historyMsg"></div>
+
+    <input id="messageInput" type="text" name="name" value="" placeholder="Type here...">
+    <input type="button" id="sendBtn" name="name" value="SEND">
+  </div>
+
+  <div class="login" id="login">
+    <p id="info">
+      Connecting to the server....
+    </p>
+    <div class="nickWrapper" id="nickWrapper">
+      <input id="nickInput" type="text" name="name" value="" placeholder="">
+      <input id="loginBtn" type="button" name="name" value="OK">
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+  <script src="scripts/chat.js" charset="utf-8"></script>
+</body>
+</html>
