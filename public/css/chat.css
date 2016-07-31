@@ -4,11 +4,10 @@
     font-family: Helvetica Neue;
     /*font-weight: 100;*/
 }
-p{
-  margin: 15px;
-  font-weight: 200;
-  font-size: 20px;
-
+p {
+    margin: 15px;
+    font-weight: 200;
+    font-size: 20px;
 }
 html, body {
     height: 100vh;
@@ -30,16 +29,15 @@ html, body {
     align-items: center;
     justify-content: center;
 }
-#status{
-  width: 50vw;
-  height: 10vh;
-  color: #fff;
-  font-weight: 100;
-
-  letter-spacing: 1px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#status {
+    width: 50vw;
+    height: 10vh;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .historyMsg {
     position: absolute;
@@ -52,7 +50,7 @@ html, body {
 }
 #messageInput {
     position: absolute;
-    width: 85vw;
+    width: 84vw;
     height: 5vh;
     top: 90vh;
     margin: 22px;
@@ -69,8 +67,8 @@ html, body {
     right: 1vw;
     padding: 0;
     outline: none;
-    margin: 24px 0 0 24px;;
-    width: 10vw;
+    margin: 24px 0 0 24px;
+    width: 11vw;
     height: 5vh;
     border: 0px;
     font-size: 20px;
@@ -84,9 +82,7 @@ html, body {
     background-color: #00509a;
 }
 
-
 /*login*/
-
 .login {
     transition: all .3s;
     position: absolute;
@@ -123,14 +119,14 @@ html, body {
     background-color: transparent;
     transition: all .3s;
 }
-#nickInput:focus{
+#nickInput:focus {
     border-color: #00509a;
 }
-#nickInput:hover{
+#nickInput:hover {
     border-color: #00509a;
 }
-.nickWrapper{
-  display: none;
+.nickWrapper {
+    display: none;
 }
 #loginBtn {
     position: absolute;

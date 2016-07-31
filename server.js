@@ -29,7 +29,7 @@ io.sockets.on('connection', function(socket) {
         socket.broadcast.emit("system", socket.nickName, users.length, "logout")
     })
 
-    socket.on("postMsg", function(msg) {
-        socket.broadcast.emit('newMsg', socket.nickName, msg);
+    socket.on("postMsg", function(msg, color) {
+        socket.broadcast.emit('newMsg', socket.nickName, msg, color);
     })
 })

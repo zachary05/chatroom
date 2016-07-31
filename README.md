@@ -1,1 +1,6 @@
-This is a chatroom application base on Socket.io and Express.
+This is a fancy chatroom web basing on Socket.io and Express.
+---
+
+Usage:
+
+`$ node server`
